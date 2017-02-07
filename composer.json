@@ -1,0 +1,32 @@
+{
+    "name": "black-lamp/yii2-redirect",
+    "description": "Is a component for configuration of redirects from controller actions to routes or previous page",
+    "keywords": ["yii2", "behavior", "component", "redirect"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "source": "https://github.com/black-lamp/yii2-redirect",
+        "issues": "https://github.com/black-lamp/yii2-redirect/issues"
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "^2.0.4"
+    },
+    "authors": [
+        {
+            "name": "Vladimir Kuprienko",
+            "email": "vldmr.kuprienko@gmail.com",
+            "role": "lead"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "bl\\redirect\\": ""
+        }
+    }
+}
