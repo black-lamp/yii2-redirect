@@ -26,7 +26,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "bl\\redirect\\": ""
+            "bl\\redirect\\": "src"
         }
     }
 }
