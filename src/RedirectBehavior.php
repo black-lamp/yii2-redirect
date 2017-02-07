@@ -1,8 +1,13 @@
 <?php
+/**
+ * @link https://github.com/black-lamp/yii2-redirect
+ * @copyright Copyright (c) 2017 Vladimir Kuprienko
+ * @license BSD 3-Clause License
+ */
+
 namespace bl\redirect;
 
 use Yii;
-use yii\base\ActionEvent;
 use yii\base\Behavior;
 use yii\base\Controller;
 
@@ -49,7 +54,7 @@ class RedirectBehavior extends Behavior
     /**
      * Event handler for configuration a default redirect route
      *
-     * @param ActionEvent $event
+     * @param \yii\base\ActionEvent $event
      */
     public function beforeAction($event)
     {
@@ -62,7 +67,7 @@ class RedirectBehavior extends Behavior
     /**
      * Event handler for redirection
      *
-     * @param ActionEvent $event
+     * @param \yii\base\ActionEvent $event
      * @return \yii\web\Response
      */
     public function afterAction($event)
